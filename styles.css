@@ -1,3 +1,9 @@
+:root{
+  --yellow: #fda813;
+  --red: #fc2847;
+  --blue: #032142;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -155,10 +161,10 @@ body{
 }
 .navbar .nav_1{
     text-align: end;
-    margin-bottom: 2.5rem;
+    margin-top: 3rem;
 }
 .navbar .nav_1 a{
-    background: rgba(3,33,66,255);
+    background: var(--blue);
     color: white;
     text-decoration: none;
     padding: 0.8rem 1.3rem;
@@ -173,7 +179,7 @@ body{
     margin-right: 2rem;
 }
 .navbar .nav_2 .btn-1{
-    background-color: rgba(253,168,19,255);
+    background-color: var(--yellow);
     padding: 0.5rem 1rem;
     border-radius: 5px;
 }
@@ -203,7 +209,7 @@ body{
 .info-1-content h1{
     font-size: 2.3rem;
     font-weight: 700;
-    color: #fc4c2c;
+    color: var(--red);
 }
 .info-1-content p{
     font-size: 1.3rem;
@@ -213,7 +219,7 @@ body{
     font-weight: 600;
 }
 .info-1-content p > span{
-    color: rgba(253,168,19,255);
+    color: var(--yellow);
 }
 
 
@@ -258,7 +264,7 @@ body{
 }
 .info-3 .info-3-content h1{
     font-size: 2.5rem;
-    color: #fd6d53;
+    color: var(--red);
 }
 .info-3 .info-3-content p{
     font-size: 1.4rem;
