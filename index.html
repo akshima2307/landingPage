@@ -27,9 +27,35 @@
             <div class="nav_2">
                 <a href="#">Feature</a>
                 <a href="#">Learn</a>
-                <a href="#">Cryptopreneur</a>
-                <!-- <a href="#" class="btn-1">Get the app</a> -->
+                <a href="./crypto.html">Cryptopreneur</a>
                 <a href="https://dadaexglobal.com/login" class="btn-2">Log-in</a>
+            </div>
+            <div class="navigation">
+                <input type="checkbox" class="navigation__checkbox" id="navi-toogle">
+                <label for="navi-toogle" class="navigation__button">
+                    <span class="navigation__icon">
+                        &nbsp;
+                    </span>
+                </label>
+                <div class="navigation__background">&nbsp;</div>
+
+                <nav class="navigation__nav">
+                    <ul class="navigation__list">
+                        <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span> Exchange</a>
+                        </li>
+                        <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span> P2P
+                                Tours</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span> Feature</a>
+                        </li>
+                        <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span> Learn
+                                Tours</a></li>
+                        <li class="navigation__item"><a href="./crypto.html" class="navigation__link"><span>05</span>
+                                Cryptopreneur</a>
+                        </li>
+                        <li class="navigation__item"><a href="#" class="btn-2 navigation__link">Log-in</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </section>
         <!--image slider start-->
@@ -42,24 +68,37 @@
                 <!--radio buttons end-->
                 <!--slide images start-->
                 <div class="slide first">
-                    <img class="slide_img" src="./img/slide_2.png" alt="">
+                    <picture>
+                        <source media="(max-width: 450px)" srcset="./img/small_slide-1.png">
+                        <source media="(min-width: 800px)" srcset="./img/slide_3.png">
+                        <img class="slide_img" src="./img/slide_3.png" alt="">
+                    </picture>
+
                     <div class="slide_content">
                         <img class="logo_img" src="./img/2.png" alt="logo">
-                        <a href="#" class="slide-btn">Find out more</a>
+                        <a href="#" class="slide-btn slide-btn__1">Find out more</a>
                     </div>
                 </div>
                 <div class="slide">
-                    <img class="slide_img" src="./img/slide_3.png" alt="">
-                    <div class="slide_content">
-                        <img class="logo_img" src="./img/2.png" alt="logo">
-                        <a href="#" class="slide-btn">Find out more</a>
-                    </div>
-                </div>
-                <div class="slide">
-                    <img class="slide_img" src="./img/slide_1.png" alt="">
+                    <picture>
+                        <source media="(max-width: 450px)" srcset="./img/small_slide-2.png">
+                        <source media="(min-width: 800px)" srcset="./img/slide_1.png">
+                        <img class="slide_img" src="./img/slide_1.png" alt="">
+                    </picture>
                     <div class="slide_content">
                         <img class="logo_img" src="./img/1.png" alt="logo">
-                        <a style="top:75%" href="#" class="slide-btn">Find out more</a>
+                        <a style="top:75%" href="#" class="slide-btn slide-btn__1">Find out more</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <picture>
+                        <source media="(max-width: 450px)" srcset="./img/small_slide-3.png">
+                        <source media="(min-width: 800px)" srcset="./img/slide_2.png">
+                        <img class="slide_img" src="./img/slide_2.png" alt="">
+                    </picture>
+                    <div class="slide_content">
+                        <img class="logo_img" src="./img/2.png" alt="logo">
+                        <a href="#" class="slide-btn slide-btn__1">Find out more</a>
                     </div>
                 </div>
                 <!--slide images end-->
@@ -88,7 +127,10 @@
             <h1>Everything in one place.</h1>
             <p style="color: black;">
                 Choose your crypto assets from wide range list, with expert analysis of use cases and secured support
-                from Dadaex Cryptopreneurs. Dadaex is a market place of digital asset trading exchanges, with trusted
+                from Dadaex Cryptopreneurs.
+            </p>
+            <p style="color: black;">
+                Dadaex is a market place of digital asset trading exchanges, with trusted
                 partners to guide you the best for your wealth.
             </p>
         </div>
