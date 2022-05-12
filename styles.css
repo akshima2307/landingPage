@@ -565,4 +565,10 @@ body{
   .info-btn{
     left: 38% !important;
   }
+  .navigation__button {
+    right: 5rem;
+  }
+  .navigation__background {
+    right: 5rem;
+  }
 }
